@@ -1,0 +1,57 @@
+:root {
+  --dark-blue-100: #609ED4;
+  --dark-blue-200: #356EA9;
+  --dark-blue-300: #0A3871;
+  --dark-blue-400: #072B61;
+  --dark-blue-500: #052051;
+  --ligth-blue-100: #F3F5FC;
+  --ligth-blue-200: #EFF1FA;
+  --ligth-blue-300: #E9ECF8;
+  --ligth-blue-400: #AAB2D5;
+  --ligth-blue-500: #757FB2;
+  --gray-100: #CED4DA;
+  --gray-200: #ADB5BD;
+  --gray-300: #868E96;
+  --gray-400: #495057;
+  --gray-500: #343A40;
+}
+
+body{
+  background: var(--ligth-blue-200);
+  padding: 0rem;
+  margin: 0rem;
+}
+.cabera{
+  display: flex;
+}
+.cabera:hover{
+  background: var(--ligth-blue-300);
+}
+#imgOracle{
+  margin-left: 1rem;
+}
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#ulNav{
+  display: flex;
+  padding: 0rem;
+  margin: 0rem;
+}
+#iconoMenu{
+  height: 14px;
+}
+.navLi:nth-child(2){
+  list-style: none;
+  margin-right: 2rem; 
+}
+.navLi:nth-child(2n+1){
+  list-style: none;
+  margin-right: 0.5rem; 
+}
+.divIconoMenu{
+  display: none;
+}
